@@ -1,0 +1,42 @@
+body{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.575), rgba(255, 255, 255, 0.678)), url("bg4.jpg");
+}
+#head{
+    font-size: 150%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(21, 0, 0);
+    font-style: italic;
+    background-color: rgba(255, 228, 196, 0.232);
+    text-align: center;
+    padding: 0.15%;
+}
+
+.images{
+    float: left;
+    margin-left: 1%;
+    margin-top: 1%;
+    padding: 0.5%;
+    z-index: -1;
+    position: relative;
+}
+
+img{
+    height: 41%;
+    width: 100%;
+}
+
+.img_text{
+    position: absolute;
+    font-size: large;
+    font-weight: 900;
+    text-align: center;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left:50%;
+}
+div{
+    padding: 30px;
+}

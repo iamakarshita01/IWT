@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+    <input type="text" placeholder="enter" class="input1">   
+    <select class="forinput">
+        <option id="K">K</option>
+        <option id="C">C</option>
+        <option id="F">F</option>
+    </select><br>INTO<br>
+    <input type="text" placeholder="output" class="output1">
+    <select class="forinput">
+        <option id="K">K</option>
+        <option id="C">C</option>
+        <option id="F">F</option>
+    </select>
+    <br>
+    
+</form>
+<button class="convert" onClick="convert()">Convert</button>
+    <script>
+        function convert(){
+            input=document.forms[0].elements[0].value;
+            inop=document.forms[0].elements[1].value;
+            otop=document.forms[0].elements[3].value;
+
+            if(inop=='C' && otop=='K'){
+                res=input+273;      
+            }else if(inop=='C' && otop=='F'){
+                res=input*(9/5)+32;
+            }else if(inop=='K' && otop=='C'){
+                res=input-273;
+            }else if(inop=='K' && otop=='F'){
+                res=(input-273)*(9/5)+32;
+            }else if(inop=='F' && otop=='C'){
+                res=((input*5)-32)/9;
+            }else if(inop=='F' && otop=='K'){
+                res=(input-32)*(5/9)+273;
+            }else{
+                res=input;
+            }
+            document.forms[0].elements[2].value=res;
+        }
+    </script>
+</body>
+</html>

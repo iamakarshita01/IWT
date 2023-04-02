@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <title> CSS </title>
+        <style>
+h1{
+    text-align: center;
+}
+body{
+    background-color: rgb(122, 170, 212);
+    background-image: radial-gradient(rgba(89, 179, 221, 0.5),rgba(87, 226, 133, 0.5),rgba(82, 144, 238, 0.5)100%)
+}
+.highlight{
+    text-align: justify;
+    text-indent: 5%;
+    color: rgb(3, 3, 8);
+    line-height: 30px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-variant:small-caps;
+    font-style: italic;
+    border-style: double;
+    border-color: rgb(0, 0, 0);
+    border-top: solid rgb(0, 0, 0) 2px;
+    padding:20px 50px 10px 20px;
+    margin: 30px 60px 20px 27px;
+    outline: solid rgb(99, 99, 139) 2px;
+    outline-offset: 10px;
+    border-width: 20px;
+    border-radius: 30px;
+    box-sizing: border-box;
+    box-shadow: 10px 20px 5px ;
+    float: left;
+    width:40%;
+}
+.highlight{
+    background-color:rgb(216, 178, 178); 
+    float: right;
+}
+img{
+    height:200px;
+    border-radius: 50%;
+    display: block;
+    float:right;
+    margin-left:20px;
+}
+.new{
+    text-align: justify;
+    text-indent: 5%;
+    color: rgb(0, 0, 0);
+    line-height: 30px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-variant:small-caps;
+    font-style: italic;
+    border-style: double;
+    border-color: rgb(40, 38, 46);
+    border-top: solid rgb(0, 0, 0) 2px;
+    padding:20px 50px 10px 20px;
+    margin: 30px 60px 20px 27px;
+    outline: solid rgb(32, 28, 30) 2px;
+    outline-offset: 10px;
+    border-width: 20px;
+    border-radius: 30px;
+    float: top;
+    width:40%;
+}
+.new{
+    background-color:rgb(95, 224, 192); }
+</style>
+</head>
+</body>
+</html>

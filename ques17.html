@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<title> CSS 2 </title>
+		<link href="css2.css" type="text/css" rel="stylesheet" />
+	</head>
+	<body>
+		<h1> Architecture of WWW </h1>
+		<p class="highlight">
+			The WWW today is a distributed client-server service, in which a client using a
+			browser can access a service using a server. However, the service provided is distributed over many locations called sites. Each site holds one or more documents, referred
+			to as Web pages. Each Web page, however, can contain some links to other Web pages
+			in the same or other sites. In other words, a Web page can be simple or composite. A
+			simple Web page has no link to other Web pages; a composite Web page has one or
+			more links to other Web pages. Each Web page is a file with a name and address. 
+		</p>
+		<p class="new">
+			<img src="images/13.jpeg" />
+			The main document and the image are stored in two separate files in the same site (file A
+			and file B); the referenced text file is stored in another site (file C). Since we are dealing with
+			three different files, we need three transactions if we want to see the whole document. The first
+			transaction (request/response) retrieves a copy of the main document (file A), which has a reference (pointer) to the second and the third files. When a copy of the main document is
+			retrieved and browsed, the user can click on the reference to the image to invoke the second
+			transaction and retrieve a copy of the image (file B). If the user further needs to see the contents
+			of the referenced text file, she can click on its reference (pointer) invoking the third transaction
+			and retrieving a copy of the file C. Note that although files A and B both are stored in site I,
+			they are independent files with different names and addresses. Two transactions are needed to
+			retrieve them.
+		</p>
+<div>
+		<h1> CSS Box Element</h1>
+		
+
+</div>
+	</body>
+</html>

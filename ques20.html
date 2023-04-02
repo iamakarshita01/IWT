@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Website</title>
+    <style>
+        body{
+            margin: 0px;
+        }
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: rgb(87, 93, 211);
+        }
+        li {
+          float: left;
+        }
+        li a {
+          display: block;
+          color: white;
+          text-align: center;
+          font-size: 20px;
+          padding: 14px 16px;
+          text-decoration: none;
+          flex-wrap: wrap;
+          flex-direction: column;
+        }
+        li a:hover {
+          background-color: rgb(33, 97, 20);
+          color: rgb(234, 231, 22);
+        }
+        .obox {
+        background-color: rgb(209, 116, 10);
+        width: 100%;
+        height: 800px;
+        padding: 0px;
+        margin: 0px;
+        background-color: #db6c12;
+        opacity: 0.8;
+        background-image: radial-gradient(#444cf7 0.5px, #e06c13 0.5px);
+        background-size: 10px 10px;
+        padding-top: 60px;
+        align-items:stretch;
+        }
+
+        /* box1 styling*/
+
+        .box{
+             /* border: 1px solid rgb(0, 0, 0); */
+             margin: 40px;
+             background-color: rgb(255, 255, 255);
+             padding: 10px;
+             box-shadow: 8px 8px #00000026;
+             align-content: center;
+             height: 500px;
+            font-size: 40px;
+            text-align: center;
+            padding-top: 70px;
+        }     
+        .img1{
+            position: absolute;
+            top: 15%;
+            left: 45%;
+            margin-top: -40px;
+            margin-left: -40px;
+            z-index: 120;
+            border-radius: 70%;
+            width: 150px;
+            height: 150px;
+        }
+        .bottom{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }  
+        .imgbottom{
+            height: 40px;
+            width: 40px;
+            background: var(--black);
+            border-radius: 50%;
+            padding: 2px;
+            margin: 0 10px
+        }      
+        .logo{
+            border-radius: 50%;
+            width: 30px;
+            flex-direction: row;
+            float:none;
+            height: 30px;
+        }
+
+         /* box2 styling*/
+
+        .o1box{
+            background-color: rgb(18, 214, 67);
+            width: 100%;
+            height: 800px;
+            padding: 0px;
+            margin: 0px;
+            background-color: #8dd12f;
+            opacity: 0.8;
+            background: linear-gradient(135deg, #444cf755 25%, transparent 25%) -4px 0/ 8px 8px, linear-gradient(225deg, #444cf7 25%, transparent 25%) -4px 0/ 8px 8px, linear-gradient(315deg, #444cf755 25%, transparent 25%) 0px 0/ 8px 8px, linear-gradient(45deg, #444cf7 25%, #86db54 25%) 0px 0/ 8px 8px;
+            padding-top: 40px;
+            text-align: center;
+        }
+        .box1{
+            border: 1px solid rgb(0, 0, 0);
+            margin: 40px;
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            box-shadow: 5px 10px #db2323;
+            align-content: center;
+            padding-top: 50px;
+            height: 500px;
+            font-size: 40px;
+            border-left: 40px solid rgba(173, 173, 173, 0.66);
+        }
+
+         /* box3 styling*/
+        .o2box{
+        background-color: rgb(45, 155, 180);
+        width: 100%;
+        height: 800px;
+        padding: 0px;
+        margin: 0px;
+        background-color: #ededf7;
+        padding-top: 50px;
+        opacity: 0.8;
+        background-size: 8px 8px;
+        background-image: repeating-linear-gradient(45deg, #444cf7 0, #141534 0.8px, #6464d4 0, #6767dd 50%);
+        text-align: center;
+        
+        }
+        .box2{
+            border: 1px solid rgb(0, 0, 0);
+            margin: 40px;
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            box-shadow: 5px 10px #dbdb23;
+            align-content: center;
+            padding-top: 50px;
+            height: 500px;
+      
+            font-size: 40px;
+           
+            border-left: 40px solid rgba(173, 173, 173, 0.66);
+        }
+
+        .logoimg{
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+            float: left;
+            padding-top: 60px;
+            padding-left: 20px;
+        }
+        .flex-container {
+    display: flex;
+}
+
+        .flex-child {
+            flex: 1;
+            border: 2px solid yellow;
+        }  
+
+        .flex-child:first-child {
+            margin-right: 20px;
+        } 
+        .o3box{
+        background-color: rgb(45, 155, 180);
+        width: 100%;
+        height: 800px;
+        padding: 0px;
+        margin: 0px;
+        background-color: #ededf7;
+        padding-top: 50px;
+        opacity: 0.8;
+        background-size: 8px 8px;
+        background-image: repeating-linear-gradient(45deg, #f7449e 0, #141534 0.8px, #d464d0 0, #dd67d7 50%);
+        text-align: center;
+        
+        }
+
+        .box3{
+            border: 1px solid rgb(0, 0, 0);
+            margin: 40px;
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            box-shadow: 5px 10px #2332db;
+            align-content: center;
+            padding-top: 50px;
+            height: 500px;
+      
+            font-size: 40px;
+           
+            border-left: 40px solid rgba(173, 173, 173, 0.66);
+        }
+
+        footer{
+            display: block;
+            background-color: #f1c8c8;
+            color: rgb(6, 9, 15);
+            height: 70px;
+            padding-top: 10px;
+            font-style: italic;
+            text-align: center;
+            font-size: 20px;
+            font-stretch: extra-expanded;
+            flex-direction: column;
+        }
+        </style>
+</head>
+<body>
+    <ul>
+        <li><a href="#intro">Intro</a></li>
+        <li><a href="#bio">Bio</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>    
+    <a id="intro"><div class="obox"><pattern id="vmhpt" patternUnits="userSpaceOnUse" width="20" height="20"><circle cx="10" cy="10" r="4" fill="transparent" stroke="rgba(0,0,0,0.13)" stroke-width="1"></circle></pattern>
+        <div class="img1">
+            <img src="logo.jpeg" class="img1">
+        </div>
+        <div class="box">
+       <p>I’m <b>akarshita mishra</b>, A software devloper
+    <br><br>
+    I’m originally from lucknow.
+    <br><br>
+    <span style="color: #e06c13; font-weight: bold;"> Say Hello</span>, or keep scrolling.
+        </p>
+    </div>    
+    </div></a>
+
+
+
+    <a id="bio">
+    <div class="o1box">
+        <img src="logo.png" class="logoimg"/>
+             <div class="box1">
+            <p>I’m My skills are <b>Java, C++, HTML, CSS, OOP</b>
+         <br><br>
+         
+         <br><br>
+         <span style="color: #1d0cad; font-weight: bold;"> Say Hello</span>, or keep scrolling.
+             </p>
+         </div>    
+         </div></a>
+
+
+
+
+         <a id="contact">
+         <div class="o2box">
+            <img src="logo.png" class="logoimg"/>
+            <div class="box2">
+          <p>I want to build my IT skills more. Crrently works in java
+         <br><br>
+          
+        <br><br>
+        <span style="color: #ad0c77; font-weight: bold;"> Say Hello</span>, or keep scrolling.
+            </p>
+        </div>    
+        </div></a>
+
+
+
+        <a id="contact">
+            <div class="o3box">
+                <img src="logo.png" class="logoimg"/>
+                <div class="box3">
+                <div class="flex-container">
+
+                    <div class="flex-child magenta">
+                        <span style="color: #1d0cad; font-weight: bold; float: left;"> My contact book </span>
+                        <br><br>
+                        <span style="color: #120d02; float: left; font-size: 25px;">An web based program application based on SQL and python..
+                        </span><br><br>
+                        <span style="color: #120d02; float: left; font-size: 25px;">An web based program application based on SQL and python..
+                        </span><br><br>
+                    </div>
+                    
+                    <div class="flex-child green">
+                        My contact book
+                       An web based program application based on SQL and python..
+                      Python,
+                        I learned the python for programming web devlopement machine learning and data science.
+                    </div>
+                    
+                  </div>
+           </div>
+                  </div>
+            </div></a>
+
+
+
+<a id="about">
+<footer>
+    <pre>Made by akarshita mishra , I hope you like my CV</pre>
+</footer></a>
+</body>
+</html>

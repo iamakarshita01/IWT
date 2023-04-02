@@ -1,0 +1,42 @@
+#pg1{
+    background-image: url("bg2.jpg");
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    z-index: -1;
+}
+
+.text{
+    color:rgb(255, 255, 255);
+    position: absolute;
+    background-color: rgba(231, 230, 239, 0.252);
+    width: 70%;
+    height: 60%;
+    transform: translate(25%, 30%);
+    
+}
+
+#txt1{
+    top:50%;
+    left: 50%;
+    transform: translate(0%, 275%);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 200%;
+    text-align: center;
+}
+
+
+#txt2{
+    transform: translate(20%, 50%);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 90%;
+
+}
+
+#pg2{
+    background-image: url("bg3.jpg");
+    position: relative;
+    height: 100%;
+    width: 100%;
+    
+}

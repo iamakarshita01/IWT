@@ -1,0 +1,10 @@
+img{
+    height: 25%;
+    width: 15%;
+    position: relative;
+    padding: 1%;
+}
+
+img:hover{
+    transform: scale(1.2);
+}

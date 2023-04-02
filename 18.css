@@ -1,0 +1,38 @@
+.square{
+    height: 10%;
+    width: 10%;
+    position: relative;
+    animation-duration: 10s;
+    animation-name: move;
+    background-color: blueviolet;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes move {
+
+    from{
+        top: 0% ;
+        left: 0% ;
+    }
+    
+    25% {
+        top:25%;
+        left: 0%;
+    }
+
+    50% {
+        top:25%;
+        left: 25%;
+    }
+    75% {
+        top:0%;
+        left:25%;
+    }
+
+    to{
+        top: 0% ;
+        left: 0% ;
+    }
+}
+

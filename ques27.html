@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital clock</title>
+</head>
+<body>
+    <div id="clock"></div>
+
+    <script>
+        function Clock() {
+            d= new Date();
+            hh= d.getHours();
+            mm= d.getMinutes();
+            ss= d.getSeconds();
+
+            cTime= hh + ":" + mm + ":" + ss ;
+            document.getElementById('clock').innerHTML = cTime ;
+        }
+        setInterval(Clock, 1000);
+    </script>
+</body>
+</html>
